@@ -1,4 +1,4 @@
-# Proyecto WEB - Aplicaciones Web con ASP, JSP y Ajax
+# Proyecto WEB - Aplicacion Web agencia de viajes con ASP, JSP y Ajax
 ## Introducción
 En este proyecto, desarrollamos una aplicación web para una agencia de viajes que permite la gestión de reservas de vuelos online. La aplicación consta de dos zonas: una pública con información de la empresa y búsqueda de vuelos, y otra zona privada accesible tras identificación para consultar reservas realizadas.
 
