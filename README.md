@@ -6,4 +6,4 @@ Tecnologías Utilizadas
 Parte Estática: XHTML y CSS
 Parte Dinámica: ASP con lenguaje VBScript y JSP
 Base de Datos: Firebird a través de ODBC
-![Fotografia](https://github.com/Mohamed97Mohamed/WEB-agencia-viajes-asp-jsp-ajax/assets/119499277/a5bb8506-3377-4eec-872b-35dc177f6395)
+
