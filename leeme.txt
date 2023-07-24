@@ -1,0 +1,10 @@
+
+usuario: admin
+contraseña: 1234
+
+
+La pagina inicial esta dentro de la carpeta WEB con el nombre de pagina_inicial.html, apartir de esta se puede ir al resto de paginas asp o jsp. 
+
+La parte de Ajax esta en la carpeta ParteAJAX.
+
+Para el funcionamiento correcto,colocar la carpeta del Proyecto dentro de la carpeta inetput/wwwroot.

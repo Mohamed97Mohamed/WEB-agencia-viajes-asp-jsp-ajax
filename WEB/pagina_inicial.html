@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <title>Inicio</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1"/>
+	<link rel="stylesheet" type="text/css" href="stilo.css"/>
+	<link rel="stylesheet" type="text/css" href="style.css"/>
+	
+  </head>
+  <body>
+  
+	
+	<header>
+		<div class="container logo-nav-container">
+			<h1 style="font-size:2em; text-align:center">ARARAT AIRWAYS</h1>
+		</div>
+
+	</header>
+	
+	
+	<main>
+		<div class="container productos">
+			<h2>Administracion</h2>
+
+			<button onclick="document.getElementById('id01').style.display='block'" style="width:auto;">Iniciar Sesión</button>
+
+			<div id="id01" class="modal">
+			  
+			  <form class="modal-content animate" action="control.asp" method="post">
+				<div class="imgcontainer">
+				  <span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Modal">&times;</span>
+				  <img src="Imagenes/img_avatar2.png" alt="Avatar" class="avatar">
+				</div>
+
+				<div class="container">
+				  <label for="uname"><b>Username</b></label>
+				  <input type="text" placeholder="Enter Username" name="usuario" >
+
+				  <label for="psw"><b>Password</b></label>
+				  <input type="text" placeholder="Enter Password" name="password" >
+					
+				  <button type="submit">Login</button>
+				</div>
+
+				<div class="container" style="background-color:#f1f1f1">
+				  <button type="button" onclick="document.getElementById('id01').style.display='none'" class="cancelbtn">Cancel</button>
+				</div>
+			  </form>
+			</div>
+			
+			<h2>Gestión de Reservas</h2>
+			<button onclick="location.href = 'reserva_vuelo_busqueda.asp'" style="width:auto;">Buscar Vuelos</button>
+			
+			<h2>Consulta Reservas</h2>
+			<button onclick="location.href = 'http://localhost:8081/prueba/consultaReserva.jsp'" style="width:auto;">Consultar</button>
+		</div>
+		
+
+	</main>
+	
+	<script>
+	// Get the modal
+	var modal = document.getElementById('id01');
+
+	// When the user clicks anywhere outside of the modal, close it
+	window.onclick = function(event) {
+		if (event.target == modal) {
+			modal.style.display = "none";
+		}
+	}
+	</script>
+	
+	
+	<footer>
+	
+		
+	
+		<ul>
+			<li><a href="">Sobre AraratAirwais.com</a></li>
+			<li><a href="">Empleo</a></li>
+			<li><a href="">Privacidad y legalidad</a></li>
+
+		</ul>
+		
+		<p> &copy; 2020 AraratAirwais.com. All Rights Reserved.</p>
+		
+		<p>
+			<a href="http://validator.w3.org/check?uri=referer"><img
+			  src="http://www.w3.org/Icons/valid-xhtml11" alt="Valid XHTML 1.1" height="31" width="88" /></a>
+		</p>
+	</footer>
+
+	
+  </body>
+</html>
